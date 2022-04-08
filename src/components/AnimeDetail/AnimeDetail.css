@@ -1,0 +1,57 @@
+.template {
+    text-align: center;
+}
+
+.animeImg img {
+    float: left;
+    padding-left: 35%;
+    padding-bottom: 7%;
+    padding-right: 2%;
+}
+
+.animeInfo {
+    padding-bottom: 5%;
+}
+
+.animeInfo animeTitle {
+    float: right;
+    padding-right: 32%;
+    overflow-wrap: break-word;
+    inline-size: 300px;
+    text-align: center;
+}
+
+.animeInfo animeScore {
+    padding-right: 31%;
+    text-align: center;
+}
+
+.animeInfo animeRating {
+    padding-right: 29%;
+}
+
+.link {
+    padding-left: 7%;
+}
+
+.animeStatusAndGenre {
+    float: left;
+    padding-left: 20%;
+    overflow-wrap: break-word;
+    inline-size: 300px;
+}
+
+.animeTrailer {
+    float: right;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+.homeButton {
+    font-size: 100%;
+}
+
+.homeLink {
+    padding-left: 2%;
+    padding-top: 2%;
+}

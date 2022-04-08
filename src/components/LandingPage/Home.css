@@ -1,0 +1,48 @@
+.header {
+    text-align: center;
+}
+#buttonDiv {
+    text-align: center;
+    padding-bottom: 1.5%;
+}
+
+#buttonDiv button {
+    font-size: large;
+}
+
+.template {
+    text-align: center;
+}
+
+.animeImage img {
+    float: left;
+    padding-left: 35%;
+    padding-bottom: 20%;
+    padding-right: 2%;
+}
+
+.animeTitle {
+    float: right;
+    padding-right: 32%;
+    overflow-wrap: break-word;
+    inline-size: 300px;
+    text-align: center;
+}
+
+.animeScore {
+    padding-right: 31%;
+    text-align: center;
+}
+
+.animeRating {
+    padding-right: 29%;
+}
+
+.link {
+    padding-left: 7%;
+}
+
+.form {
+    text-align: center;
+    padding-bottom: 5%;
+}
