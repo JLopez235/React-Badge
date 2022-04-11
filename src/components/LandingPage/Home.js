@@ -40,14 +40,14 @@ function Home() {
                         Looking for a new anime to watch use our random anime generator
                         to find new animes.(Some anime are NSFW)
                     </h2>
-                    <button className="button" onClick={handleSubmit}>Random Anime</button>
+                    <button data-testid="animeButton" className="button" onClick={handleSubmit}>Random Anime</button>
                 </div>
 
                 <div className='form'>
                     <form onSubmit={onSubmitHandler}> 
                         <label>
                             Anime Search: &nbsp;&nbsp;
-                            <input type="text" name="search" onChange={ (event) => setTitle(event.target.value) } />
+                            <input data-testid="input" type="text" name="search" onChange={ (event) => setTitle(event.target.value) } />
                         </label>
                         <input type="submit" value="Submit"/>
                     </form>
@@ -76,7 +76,7 @@ function Home() {
                     <form onSubmit={onSubmitHandler}>
                         <label>
                             Anime Search: &nbsp;&nbsp;
-                            <input type="text" name="search" onChange={ (event) => setTitle(event.target.value) } />
+                            <input data-testid="search" type="text" name="search" onChange={ (event) => setTitle(event.target.value) } />
                         </label>
                         <input type="submit" value="Submit"/>
                     </form>
