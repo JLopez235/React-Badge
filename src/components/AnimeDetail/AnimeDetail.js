@@ -51,4 +51,4 @@ function AnimeDetail() {
    
 }
 
-export default AnimeDetail;
+export default AnimeDetail; 
